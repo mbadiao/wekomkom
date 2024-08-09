@@ -12,7 +12,6 @@ const Contact = () => {
           Nous répondons à toutes vos questions !
         </h2>
       </div>
-
       <div className="grid grid-cols-1 grid-rows-1 lg:grid-cols-2 gap-10">
         <div className="row-span-2 bg-white p-8 raduis-20 shadow-lg">
           <h3 className="text-2xl font-bold mb-6 text-secondary">

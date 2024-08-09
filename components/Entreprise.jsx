@@ -5,7 +5,7 @@ import EntrepriseCTA from "./EntrepriseCTA";
 const Entreprise = () => {
   return (
     <div className=" max-w-[1128px] mt-36 h-max mx-auto">
-      <div className="flex flex-col items-center gap-3 text-center">
+      <div className="flex flex-col justify-center items-center gap-3 text-center">
         <CustomButton
           textContent="Entreprise"
           classNames="text-blue bg-[#D4F0FF] py-[10px] px-[24px] rounded-xl w-max text-[18px]"
