@@ -12,7 +12,7 @@ export default function Home() {
       <HeroSection />
       <Entreprise/>
       </section>
-      <CircleBleu/>
+      {/* <CircleBleu/> */}
     </>
   );
 }
