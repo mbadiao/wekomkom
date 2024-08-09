@@ -16,6 +16,7 @@ export default function Home() {
       <CircleBleu />
       <Contact />
       <Footer />
+      {/* <CircleBleu/> */}
     </>
   );
 }
