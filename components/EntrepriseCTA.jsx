@@ -34,12 +34,12 @@ import Image from "next/image";
 const EntrepriseCTA = () => {
   return (
     <>
-      <div className="custom-box p-10 max-w-[1128px] mt-7 h-auto md:h-[400px] flex flex-col md:flex-row justify-between">
-        <div className="flex flex-col justify-between items-center md:items-start">
+      <div className="custom-box m-4 p-10 max-w-[1128px] mt-7 h-auto md:h-[400px] flex flex-col md:flex-row justify-between">
+        <div className="flex  justify-between md:flex-col items-center md:items-start">
           <Image src="logo-gray.svg" width={40} height={30} alt="logo" />
           <Image src="human.svg" width={150} height={30} alt="human" />
         </div>
-        <div className="max-w-[620px] z-30 flex flex-col justify-center items-center gap-y-4 mt-6 md:mt-0">
+        <div className="max-w-[620px] flex flex-col justify-center items-center gap-y-4 mt-6 md:mt-0">
           <h1 className="text-gradient font-extrabold text-3xl text-center md:text-left">
             Prêt à vous lancer ?
           </h1>

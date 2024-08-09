@@ -2,7 +2,7 @@ import Image from "next/image";
 import CustomButton from "./CustomButton";
 const Contact = () => {
   return (
-    <div className="bg-blue-100 p-8 py-28 flex flex-col items-center">
+    <div className="bg-[#D9EBFF] w-full mt-10 p-8 py-28 flex flex-col items-center">
       <div className="text-center mb-8">
         <CustomButton
           textContent="Contact"

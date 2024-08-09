@@ -4,7 +4,7 @@ import Image from "next/image";
 import EntrepriseCTA from "./EntrepriseCTA";
 const Entreprise = () => {
   return (
-    <div className="z-10 max-w-[1128px] mt-36 max-h-[1449.54px] mx-auto">
+    <div className=" max-w-[1128px] mt-36 h-max mx-auto">
       <div className="flex flex-col items-center gap-3 text-center">
         <CustomButton
           textContent="Entreprise"
@@ -15,8 +15,8 @@ const Entreprise = () => {
         </h1>
       </div>
       <div className="flex flex-col gap-6 mt-[20px]">
-        <div className="flex flex-col md:flex-row gap-6">
-          <div className="w-full md:w-[608px] h-[400px] custom-box px-[30px]">
+        <div className="flex px-4 flex-col md:flex-row gap-6">
+          <div className="w-full md:w-[608px] max-h-[400px] custom-box px-[30px]">
             <div className="flex justify-between">
               <h3 className="text-xl md:text-2xl font-bold text-dark leading-tight max-w-[365px] mt-[30.46px]">
                 Une vitrine attractive pour votre business !
@@ -32,7 +32,7 @@ const Entreprise = () => {
               />
             </div>
           </div>
-          <div className="w-full md:w-[496px] h-[400px] custom-box px-[30px]">
+          <div className="w-full  md:w-[496px] h-[400px] custom-box px-[30px]">
             <h3 className="text-xl md:text-2xl font-bold text-dark leading-tight max-w-[425px] mt-[30.46px]">
               Des opportunités inédites pour votre entreprise !
             </h3>
@@ -57,8 +57,8 @@ const Entreprise = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col  md:flex-row gap-6">
-          <div className="w-full md:w-[499px] h-[400px] custom-box p-[20px]">
+        <div className="flex px-4 flex-col  md:flex-row gap-6">
+          <div className="w-full  md:w-[499px] h-[400px] custom-box p-[20px]">
             <h3 className="text-xl md:text-2xl font-bold text-dark leading-tight max-w-[425px] mt-[30.46px]">
               Un écosystème diversifié vous offrant un cadre idéal.
             </h3>
