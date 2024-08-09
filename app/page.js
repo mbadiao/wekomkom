@@ -8,6 +8,7 @@ import Accecibilite from "@/components/Accecibilite";
 import Structure from "@/components/Structure";
 import Boutique from "@/components/Boutique";
 import OpportuniteCard from "@/components/OpportuniteCard";
+import Oportunity from "@/components/Oportunity";
 export default function Home() {
   return (
     <>
@@ -18,13 +19,10 @@ export default function Home() {
         <Accecibilite />
         <Structure />
         <Boutique />
+        <Oportunity />
         <Contact />
         <Footer />
       </section>
-      <CircleBleu />
-      <Contact />
-      <Footer />
-      <OpportuniteCard />
       {/* <CircleBleu/> */}
     </>
   );

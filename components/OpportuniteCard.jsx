@@ -1,7 +1,7 @@
 import Image from "next/image";
 const OpportuniteCard = () => {
   return (
-    <div class="flex max-md:flex-col items-center px-8 max-w-xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+    <div class="flex max-md:flex-col items-center px-8 max-w-2xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
       <div className="">
         <Image
           className="max-md:size-48"
@@ -32,8 +32,8 @@ const OpportuniteCard = () => {
             les entrepreneurs...
           </p>
         </div>
-        <div class="px-4 py-2 bg-gray-50 flex flex-wrap items-center">
-          <div class="flex items-center text-gray-600 text-sm">
+        <div class="px-4 py-2  flex flex-wrap gap-2 items-center">
+          <div class="flex items-center  text-gray-600 text-sm">
             <Image
               className=""
               src="/time-logo.svg"
@@ -43,7 +43,7 @@ const OpportuniteCard = () => {
             />
             <span>31 Juillet 2024</span>
           </div>
-          <div class="flex items-center text-gray-600 text-sm">
+          <div class="flex items-center  text-gray-600 text-sm">
             <Image
               className=""
               src="/time-logo.svg"
@@ -53,7 +53,7 @@ const OpportuniteCard = () => {
             />
             <span>6 mois</span>
           </div>
-          <div class="flex items-center text-gray-600 text-sm">
+          <div class="flex items-center  text-gray-600 text-sm">
             <Image
               className=""
               src="/location.svg"
