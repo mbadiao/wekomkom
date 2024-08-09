@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Accecibilite from "@/components/Accecibilite";
 import Structure from "@/components/Structure";
 import Boutique from "@/components/Boutique";
+import OpportuniteCard from "@/components/OpportuniteCard";
 export default function Home() {
   return (
     <>
@@ -20,6 +21,10 @@ export default function Home() {
         <Contact />
         <Footer />
       </section>
+      <CircleBleu />
+      <Contact />
+      <Footer />
+      <OpportuniteCard />
       {/* <CircleBleu/> */}
     </>
   );
